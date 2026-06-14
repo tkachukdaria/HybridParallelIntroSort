@@ -9,12 +9,12 @@
 #include "Student.h"
 
 constexpr const char* INPUT_FILE =
-    "students_300000.csv";
+    "students_1000000.csv";
 
 constexpr size_t THREAD_COUNT = 4;
 
 constexpr int WARMUP_RUNS = 2;
-constexpr int TEST_RUNS = 50;
+constexpr int TEST_RUNS = 20;
 
 std::vector<Student> loadStudents(
     const std::string& filename)
